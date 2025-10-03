@@ -1,0 +1,106 @@
+# D2L 数据集（所有框架下的 data/ 目录，包含下载的 .csv, .npz, 图像等）
+**/data/
+pytorch/data/
+paddle/data/
+mxnet/data/
+tensorflow/data/
+chapter_*/data/  # 章节级数据，如 chapter_multilayer-perceptrons/data
+img/data/  # 如果有图像数据子目录
+
+# Python 标准忽略
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Conda 环境
+# conda envs
+# envs/
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 测试/日志/输出
+logs/
+*.log
+test/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.bak
+*.swp
+*.tmp
+*.tmp.*
+
+# 模型/检查点（训练输出）
+checkpoints/
+models/
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.npy
+*.npz  # NumPy 数据文件，如果不在 data/ 下
+
+# 文档/构建
+docs/_build/
+_build/
+*.html
+*.pdf
+*.docx
+
+# IDE/编辑器
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/settings.json
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# OS 生成文件
+.DS_Store?
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook 特定
+.ipynb_checkpoints/
+# 或忽略所有 .ipynb（如果不提交 notebook）
+# *.ipynb
+
+# D2L 特定：如果有生成的图表/输出
+fig/
+figure/
+output/
+results/
